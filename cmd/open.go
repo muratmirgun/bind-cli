@@ -21,7 +21,3 @@ var Open = &cobra.Command{
 		fmt.Println(string(dosyaicerik))
 	},
 }
-
-func init() {
-
-}

@@ -7,7 +7,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use: "mme",
+	Use: "bind",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Docs Cli Hello")
 	},

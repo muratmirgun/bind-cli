@@ -11,8 +11,8 @@ func init() {
 
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Bixi Cli Version",
+	Short: "Bind Cli Version",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Bixi Cli Version v1.0")
+		fmt.Println("Bind Cli Version v1.0")
 	},
 }
