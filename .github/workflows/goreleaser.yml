@@ -6,7 +6,10 @@ on:
 
 jobs:
   goreleaser:
-    runs-on: ubuntu-16.04
+    runs-on: 
+         - ubuntu-16.04
+         - macos-latest
+         - windows-latest
     steps:
       -
         name: Checkout
