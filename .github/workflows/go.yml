@@ -23,7 +23,7 @@ jobs:
           version: latest
           args: release --rm-dist
       env:
-          GITHUB_TOKEN: ${GIT_SECRET_KEY}
+          GITHUB_TOKEN: ${{ secrets.GIT_SECRET_KEY }}
     - name: Install
       run: go get github.com/spf13/cobra
       
