@@ -1,4 +1,5 @@
 # Bind CLI
+[![Go](https://github.com/muratmirgun/bind-cli/actions/workflows/go.yml/badge.svg)](https://github.com/muratmirgun/bind-cli/actions/workflows/go.yml)
 
 > My Simple CLI Project!
 
