@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bind-cli/cmd"
+	"github.com/bind-cli/cmd"
 )
 
 func main() {
